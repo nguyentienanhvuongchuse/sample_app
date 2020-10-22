@@ -1,3 +1,17 @@
 vi:
-  index:
-    title: "Người dùng"
+  base:
+    title: "| Ứng dụng mẫu hướng dẫn Ruby on Rails"
+    content_href: "Hướng dẫn Ruby on Rails"
+    welcome: "Chào mừng đến Sample App"
+    register: "Đăng ký ngay!"
+  home:
+    name: "Trang chủ"
+    content_home: "Đây là trang chủ cho %{href_base} ứng dụng mẫu."
+    sample_rails: "Ứng dụng mẫu"
+
+  help:
+    name: "Hỗ trợ"
+    content_help: "Nhận trợ giúp về Hướng dẫn Ruby on Rails tại %{href_sp}. Để nhận trợ giúp về ứng dụng mẫu này, hãy xem %{href_base}."
+    support_rails: "trang hỗ trợ hướng dẫn Rails"
+  user:
+    name: "Đăng nhập"
