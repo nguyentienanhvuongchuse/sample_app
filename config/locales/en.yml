@@ -1,3 +1,17 @@
 en:
-  index:
-    title: "User"
+  base:
+    title: "| Ruby on Rails Tutorial Sample App"
+    content_href: "Ruby on Rails Tutorial"
+    welcome: "Welcome to the Sample App"
+    register: "Sign up now!"
+  home:
+    name: "Home"
+    content_home: "This is the home page for the %{href_base} sample application."
+    sample_rails: "Sample App"
+
+  help:
+    name: "Help"
+    content_help: "Get help on the Ruby on Rails Tutorial at the %{href_sp}. To get help on this sample app, see the %{href_base}."
+    support_rails: "Rails Tutorial Help page"
+  user:
+    name: "Login"

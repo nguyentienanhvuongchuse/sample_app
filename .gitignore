@@ -56,5 +56,7 @@ build-iPhoneSimulator/
 # .rubocop-https?--*
 /node_modules
 /config/database.yml
+/.browserslistrc
 /.framgia-ci-reports/
 /.framgia-ci-result.temp.yml
+
