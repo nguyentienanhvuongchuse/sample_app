@@ -59,4 +59,9 @@ build-iPhoneSimulator/
 /.browserslistrc
 /.framgia-ci-reports/
 /.framgia-ci-result.temp.yml
+/log/development.log
 
+
+config/settings.local.yml
+config/settings/*.local.yml
+config/environments/*.local.yml
