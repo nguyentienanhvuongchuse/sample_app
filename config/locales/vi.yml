@@ -15,3 +15,14 @@ vi:
     support_rails: "trang hỗ trợ hướng dẫn Rails"
   user:
     name: "Đăng nhập"
+
+  sign_up:
+    title: "Đăng ký"
+    name: "Họ tên"
+    email: "Email"
+    password: "Mật khẩu"
+    confirmation: "Nhập lại mật khẩu"
+    create_account: "Tạo mới tài khoản"
+    error: " lỗi"
+    had: "Đã có"
+    warning: "Không tìm thấy tài khoản"
