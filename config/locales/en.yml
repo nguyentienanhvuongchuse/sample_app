@@ -13,5 +13,26 @@ en:
     name: "Help"
     content_help: "Get help on the Ruby on Rails Tutorial at the %{href_sp}. To get help on this sample app, see the %{href_base}."
     support_rails: "Rails Tutorial Help page"
+
   user:
     name: "Login"
+    user: "User"
+    account: "Account"
+    profile: "Profile"
+    settings: "Settings"
+    logout: "Logout"
+
+  login:
+    invalid: "Email or password is invalid"
+    new: "New user"
+
+  sign_up:
+    title: "Sign Up"
+    name: "Name"
+    email: "Email"
+    password: "Password"
+    confirmation: "Enter Password"
+    create_account: "Register Now"
+    error: "Error"
+    had: "The form contains "
+    warning: "User not found"
