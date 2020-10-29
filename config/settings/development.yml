@@ -1,3 +1,5 @@
 user:
   max_name_length: 50
   max_pass_length: 6
+helper:
+  size: 80

@@ -15,3 +15,14 @@ en:
     support_rails: "Rails Tutorial Help page"
   user:
     name: "Login"
+
+  sign_up:
+    title: "Sign Up"
+    name: "Name"
+    email: "Email"
+    password: "Password"
+    confirmation: "Enter Password"
+    create_account: "Register Now"
+    error: "Error"
+    had: "The form contains "
+    warning: "User not found"
