@@ -15,6 +15,15 @@ vi:
     support_rails: "trang hỗ trợ hướng dẫn Rails"
   user:
     name: "Đăng nhập"
+    user: "Người dùng"
+    account: "Tài khoản"
+    profile: "Hồ sơ"
+    settings: "Cài đặt"
+    logout: "Đăng xuất"
+
+  login:
+    invalid: "Email hoặc mật khẩu không hợp lệ"
+    new: "Đăng ký ngay"
 
   sign_up:
     title: "Đăng ký"
