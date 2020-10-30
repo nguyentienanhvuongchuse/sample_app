@@ -24,6 +24,7 @@ vi:
   login:
     invalid: "Email hoặc mật khẩu không hợp lệ"
     new: "Đăng ký ngay"
+    forget: "Ghi nhớ tài khoản"
 
   sign_up:
     title: "Đăng ký"

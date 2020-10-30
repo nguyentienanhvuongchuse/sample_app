@@ -25,6 +25,7 @@ en:
   login:
     invalid: "Email or password is invalid"
     new: "New user"
+    forget: "Remember me on this computer"
 
   sign_up:
     title: "Sign Up"
