@@ -3,3 +3,5 @@ user:
   max_pass_length: 6
 helper:
   size: 80
+paging:
+  p10: 10

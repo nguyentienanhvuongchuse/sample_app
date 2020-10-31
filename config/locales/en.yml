@@ -21,10 +21,19 @@ en:
     profile: "Profile"
     settings: "Settings"
     logout: "Logout"
+    save: "Save"
+    update: "Update your profile"
+    change: "change"
+    all: "All users"
+    updated: "Profile updated"
+    deleted: "User deleted"
+    alert: "Do you want to delete this account ?"
+    not_loged_in: "Please login"
 
   login:
     invalid: "Email or password is invalid"
     new: "New user"
+    forget: "Remember me on this computer"
 
   sign_up:
     title: "Sign Up"

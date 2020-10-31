@@ -13,6 +13,7 @@ vi:
     name: "Hỗ trợ"
     content_help: "Nhận trợ giúp về Hướng dẫn Ruby on Rails tại %{href_sp}. Để nhận trợ giúp về ứng dụng mẫu này, hãy xem %{href_base}."
     support_rails: "trang hỗ trợ hướng dẫn Rails"
+
   user:
     name: "Đăng nhập"
     user: "Người dùng"
@@ -20,10 +21,19 @@ vi:
     profile: "Hồ sơ"
     settings: "Cài đặt"
     logout: "Đăng xuất"
+    save: "Lưu"
+    update: "Cập nhật hồ sơ của bạn"
+    change: "thay đổi"
+    all: "Tất cả tài khoản"
+    updated: "Hồ sơ cá nhân đã cập nhật"
+    deleted: "Người dùng đã bị xóa"
+    alert: "Bạn có muốn xóa tài khoản này ?"
+    not_loged_in: "Vui lòng đăng nhập"
 
   login:
     invalid: "Email hoặc mật khẩu không hợp lệ"
     new: "Đăng ký ngay"
+    forget: "Ghi nhớ tài khoản"
 
   sign_up:
     title: "Đăng ký"
