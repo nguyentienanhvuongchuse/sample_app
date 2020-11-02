@@ -1,0 +1,7 @@
+<h1><%= t "home.sample_rails" %></h1>
+<p><%= t "config.hi" %> <%= @user.name %>,</p>
+<p>
+  <% t "config.notification" %>
+</p>
+<%= link_to "Activate", edit_account_activation_url(id: @user.activation_token,
+  email: @user.email) %>
