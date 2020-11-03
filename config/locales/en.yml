@@ -29,6 +29,7 @@ en:
     deleted: "User deleted"
     alert: "Do you want to delete this account ?"
     not_loged_in: "Please login"
+    account_activation: "Account activation"
 
   login:
     invalid: "Email or password is invalid"
@@ -45,3 +46,11 @@ en:
     error: "Error"
     had: "The form contains "
     warning: "User not found"
+    check: "Please check your email to activate your account."
+
+  config:
+    notification: "Welcome to the Sample App! Click on the link below to activate your account:"
+    hi: "Hi"
+    activated: "Account activated!"
+    invalid_link: "Invalid activation link"
+    not_activated: "Account not activated. Check your email for the activation link."

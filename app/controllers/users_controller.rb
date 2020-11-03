@@ -2,7 +2,6 @@ class UsersController < ApplicationController
   before_action :logged_in_user, except: [:new, :create]
   before_action :load_user, except: [:index, :new, :create]
   before_action :correct_user, only: [:edit, :update]
-  before_action :admin_user, only: :destroy
 
   def new
     @user = User.new
@@ -23,9 +22,9 @@ class UsersController < ApplicationController
   def create
     @user = User.new user_params
     if @user.save
-      log_in @user
-      flash[:success] = t "base.welcome"
-      redirect_to user_path(id: @user.id)
+      @user.send_activation_email
+      flash[:info] = t "user.check"
+      redirect_to root_url
     else
       render :new
     end
