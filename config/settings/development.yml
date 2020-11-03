@@ -7,3 +7,5 @@ paging:
   p10: 10
 mailer:
   from: "noreply@example.com"
+expired:
+  value: 2
