@@ -9,3 +9,7 @@ mailer:
   from: "noreply@example.com"
 expired:
   value: 2
+mb:
+  value: 5
+post:
+  max_content: 140

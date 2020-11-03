@@ -30,6 +30,7 @@ en:
     alert: "Do you want to delete this account ?"
     not_loged_in: "Please login"
     account_activation: "Account activation"
+    delete: "delete"
 
   login:
     invalid: "Email or password is invalid"
@@ -70,3 +71,15 @@ en:
     expired: "Password reset has expired."
     update_pass: "Update password"
     account_activation: "Account activation"
+
+  micropost:
+    deleted: "Micropost deleted"
+    delete_fail: "Delete fail"
+    less_than_5: "should be less than 5MB"
+    sure: "You sure?"
+    posted: "posted %{value} ago"
+    input_content: "Compose new micropost..."
+    post: "Post"
+    alert: "Maximum file size is 5MB. Please choose a smaller file."
+    view: "view my profile"
+    name: "micropost"
