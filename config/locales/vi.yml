@@ -29,11 +29,13 @@ vi:
     deleted: "Người dùng đã bị xóa"
     alert: "Bạn có muốn xóa tài khoản này ?"
     not_loged_in: "Vui lòng đăng nhập"
+    check: "Hãy kiểm tra email của bạn để kích hoạt tài khoản của bạn."
+    account_activation: "Kích hoạt tài khoản"
 
   login:
     invalid: "Email hoặc mật khẩu không hợp lệ"
     new: "Đăng ký ngay"
-    forget: "Ghi nhớ tài khoản"
+    remember: "Ghi nhớ tài khoản"
 
   sign_up:
     title: "Đăng ký"
@@ -45,3 +47,25 @@ vi:
     error: " lỗi"
     had: "Đã có"
     warning: "Không tìm thấy tài khoản"
+
+  config:
+    notification: "Chào mừng bạn đến với Ứng dụng mẫu! Nhấp vào liên kết bên dưới để kích hoạt tài khoản của bạn:"
+    hi: "Xin chào"
+    activated: "Tài khoản đã được kích hoạt!"
+    invalid_link: "Liên kết kích hoạt không hợp lệ"
+    not_activated: "Tài khoản chưa được kích hoạt. Kiểm tra email của bạn để biết liên kết kích hoạt."
+
+  reset_pass:
+    forget: "Quên mật khẩu"
+    sent: "Gửi"
+    name: "Đặt lại mật khẩu"
+    content1: "Để đặt lại mật khẩu của bạn, hãy nhấp vào liên kết bên dưới:"
+    content2: "Liên kết này sẽ hết hạn sau hai giờ."
+    content3: "Nếu bạn không yêu cầu đặt lại mật khẩu của mình,
+      vui lòng bỏ qua email này và mật khẩu của bạn sẽ vẫn như cũ."
+    mail_to: "Email được gửi kèm theo hướng dẫn đặt lại mật khẩu"
+    not_found: "Không tìm thấy địa chỉ email"
+    not_empty: "không thể để trống"
+    has_reset: "Mật khẩu đã được đặt lại."
+    expired: "Đặt lại mật khẩu đã hết hạn."
+    update_pass: "Cập nhật mật khẩu"

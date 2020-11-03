@@ -29,11 +29,12 @@ en:
     deleted: "User deleted"
     alert: "Do you want to delete this account ?"
     not_loged_in: "Please login"
+    account_activation: "Account activation"
 
   login:
     invalid: "Email or password is invalid"
     new: "New user"
-    forget: "Remember me on this computer"
+    remember: "Remember me on this computer"
 
   sign_up:
     title: "Sign Up"
@@ -45,3 +46,27 @@ en:
     error: "Error"
     had: "The form contains "
     warning: "User not found"
+    check: "Please check your email to activate your account."
+
+  config:
+    notification: "Welcome to the Sample App! Click on the link below to activate your account:"
+    hi: "Hi"
+    activated: "Account activated!"
+    invalid_link: "Invalid activation link"
+    not_activated: "Account not activated. Check your email for the activation link."
+
+  reset_pass:
+    forget: "Forgot password"
+    sent: "Sent"
+    name: "Password reset"
+    content1: "To reset your password click the link below:"
+    content2: "This link will expire in two hours."
+    content3: "If you did not request your password to be reset,
+      please ignore this email and your password will stay as it is."
+    mail_to: "Email sent with password reset instructions"
+    not_found: "Email address not found"
+    not_empty: "can't be empty"
+    has_reset: "Password has been reset."
+    expired: "Password reset has expired."
+    update_pass: "Update password"
+    account_activation: "Account activation"
