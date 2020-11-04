@@ -9,3 +9,8 @@ mailer:
   from: "noreply@example.com"
 expired:
   value: 2
+micropost:
+  mb: 5
+  width: 500
+  height: 500
+  max_value: 140
