@@ -31,11 +31,16 @@ vi:
     not_loged_in: "Vui lòng đăng nhập"
     check: "Hãy kiểm tra email của bạn để kích hoạt tài khoản của bạn."
     account_activation: "Kích hoạt tài khoản"
+    delete: "xóa bỏ"
+    fails: "Không xóa được"
+    not_found: "Không tìm thấy"
+    not_found_relationship: "không tìm thấy mối quan hệ"
 
   login:
     invalid: "Email hoặc mật khẩu không hợp lệ"
     new: "Đăng ký ngay"
     remember: "Ghi nhớ tài khoản"
+    please: "Vui lòng hãy đăng nhập."
 
   sign_up:
     title: "Đăng ký"
@@ -69,3 +74,23 @@ vi:
     has_reset: "Mật khẩu đã được đặt lại."
     expired: "Đặt lại mật khẩu đã hết hạn."
     update_pass: "Cập nhật mật khẩu"
+
+  micropost:
+    deleted: "bài đăng đã bị xóa"
+    delete_fail: "Xóa không thành công"
+    less_than_5: "phải nhỏ hơn 5MB"
+    sure: "Bạn chắc chắn?"
+    posted: "đã đăng %{value} trước đây"
+    input_content: "Soạn bài mới ..."
+    post: "Đăng bài"
+    alert: "Kích thước tệp tối đa là 5MB. Vui lòng chọn một tệp nhỏ hơn."
+    view: "xem hồ sơ của tôi"
+    name: "Bài đăng"
+    create: "Đã tạo bài viết"
+    error: "Lỗi truy cập"
+
+  follow:
+    following: "Đang theo dõi"
+    followers: "Người theo dõi"
+    name: "Theo dõi"
+    unfollow: "Bỏ theo dõi"

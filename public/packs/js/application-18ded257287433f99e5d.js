@@ -145,12 +145,35 @@ __webpack_require__(/*! channels */ "./app/javascript/channels/index.js");
 
 __webpack_require__(/*! jquery */ "./node_modules/jquery/dist/jquery.js");
 
- // Uncomment to copy all static images under ../images to the output folder and reference
+__webpack_require__(/*! packs/size_img */ "./app/javascript/packs/size_img.js");
+
+ //= require i18n
+//= require i18n.js
+//= require i18n/translations
+// Uncomment to copy all static images under ../images to the output folder and reference
 // them with the image_pack_tag helper in views (e.g <%= image_pack_tag 'rails.png' %>)
 // or the `imagePath` JavaScript helper below.
 //
 // const images = require.context('../images', true)
 // const imagePath = (name) => images(name, true)
+
+/***/ }),
+
+/***/ "./app/javascript/packs/size_img.js":
+/*!******************************************!*\
+  !*** ./app/javascript/packs/size_img.js ***!
+  \******************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+/* WEBPACK VAR INJECTION */(function($) {$("#micropost_image").bind("change", function () {
+  var size_in_megabytes = this.files[0].size / 1024 / 1024;
+
+  if (size_in_megabytes > 5) {
+    alert(I18n.t("micropost.alert"));
+  }
+});
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! jquery/src/jquery */ "./node_modules/jquery/src/jquery.js")))
 
 /***/ }),
 
@@ -25823,4 +25846,4 @@ module.exports = function (module) {
 /***/ })
 
 /******/ });
-//# sourceMappingURL=application-1f5b2e6e0910655416e8.js.map
+//# sourceMappingURL=application-18ded257287433f99e5d.js.map
