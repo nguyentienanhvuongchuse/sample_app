@@ -28,6 +28,7 @@ Rails.application.configure do
     config.cache_store = :null_store
   end
 
+  config.active_storage.service = :local
   # Store uploaded files on the local file system (see config/storage.yml for options).
   # ActionMailer Config
   config.action_mailer.raise_delivery_errors = true
@@ -65,4 +66,5 @@ Rails.application.configure do
   # Use an evented file watcher to asynchronously detect changes in source code,
   # routes, locales, etc. This feature depends on the listen gem.
   config.file_watcher = ActiveSupport::EventedFileUpdateChecker
+  config.middleware.use I18n::JS::Middleware
 end
