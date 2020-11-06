@@ -32,6 +32,9 @@ en:
     account_activation: "Account activation"
     delete: "delete"
     please: "Please log in."
+    fails: "Failed to delete"
+    not_found: "Can't not found"
+    not_found_relationship: "not found relationship"
 
   login:
     invalid: "Email or password is invalid"
@@ -88,3 +91,9 @@ en:
     img_valid: "must be a valid image format"
     create: "Micropost created!"
     error: "Access error"
+
+  follow:
+    following: "Following"
+    followers: "Followers"
+    name: "Follow"
+    unfollow: "Unfollow"

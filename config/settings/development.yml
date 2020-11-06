@@ -14,3 +14,5 @@ micropost:
   width: 500
   height: 500
   max_value: 140
+show:
+  value: 30

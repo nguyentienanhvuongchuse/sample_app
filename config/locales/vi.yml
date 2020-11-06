@@ -32,6 +32,9 @@ vi:
     check: "Hãy kiểm tra email của bạn để kích hoạt tài khoản của bạn."
     account_activation: "Kích hoạt tài khoản"
     delete: "xóa bỏ"
+    fails: "Không xóa được"
+    not_found: "Không tìm thấy"
+    not_found_relationship: "không tìm thấy mối quan hệ"
 
   login:
     invalid: "Email hoặc mật khẩu không hợp lệ"
@@ -85,3 +88,9 @@ vi:
     name: "Bài đăng"
     create: "Đã tạo bài viết"
     error: "Lỗi truy cập"
+
+  follow:
+    following: "Đang theo dõi"
+    followers: "Người theo dõi"
+    name: "Theo dõi"
+    unfollow: "Bỏ theo dõi"
